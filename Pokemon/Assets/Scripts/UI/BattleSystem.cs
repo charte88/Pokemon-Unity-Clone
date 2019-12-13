@@ -12,9 +12,20 @@ public class BattleSystem : MonoBehaviour
 
     public BattleState state;
 
+    private static bool bsExists;
+
     // Start is called before the first frame update
     void Start()
     {
+       /* if (!bsExists)
+        {
+            bsExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        } */
         //state = BattleState.Start;
         SetupBattle();
     }

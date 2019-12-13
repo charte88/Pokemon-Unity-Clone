@@ -33,8 +33,6 @@ public class Movement : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        
     }
 
     // Update is called once per frame
@@ -54,6 +52,7 @@ public class Movement : MonoBehaviour
     {
         //isMoving = true;
         // Movement
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (isAllowedToMove)
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }

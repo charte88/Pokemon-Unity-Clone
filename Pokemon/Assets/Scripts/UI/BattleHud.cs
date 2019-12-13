@@ -9,6 +9,8 @@ public class BattleHud : MonoBehaviour
     public Text level;
     public Slider hpSlider;
 
+    private static bool HUDExists;
+
     public void SetHUD(BasePokemon pokemon)
     {
         PName.text = pokemon.PName;
@@ -21,5 +23,20 @@ public class BattleHud : MonoBehaviour
     {
         hpSlider.value = hp;
 
+    }
+
+    void Start()
+    {
+      /*  if (!HUDExists)
+        {
+            HUDExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            Destroy(gameObject);
+        }*/
     }
 }

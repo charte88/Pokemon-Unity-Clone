@@ -7,7 +7,7 @@ TextureImporter:
     second: indoor_0
   - first:
       213: 21300002
-    second: indoor_1
+    second: Wood
   - first:
       213: 21300004
     second: Floor_2
@@ -28,7 +28,7 @@ TextureImporter:
     second: indoor_7
   - first:
       213: 21300016
-    second: indoor_8
+    second: GoldCarpet
   - first:
       213: 21300018
     second: indoor_9
@@ -61,13 +61,13 @@ TextureImporter:
     second: indoor_18
   - first:
       213: 21300038
-    second: indoor_19
+    second: Wood2
   - first:
       213: 21300040
-    second: indoor_20
+    second: ChairRed_1
   - first:
       213: 21300042
-    second: indoor_21
+    second: ChairRed_2
   - first:
       213: 21300044
     second: indoor_22
@@ -343,10 +343,10 @@ TextureImporter:
     second: CompChair
   - first:
       213: 21300226
-    second: indoor_113
+    second: GlassTable_1
   - first:
       213: 21300228
-    second: indoor_114
+    second: GlassTable_2
   - first:
       213: 21300230
     second: Table1_1
@@ -385,10 +385,10 @@ TextureImporter:
     second: indoor_126
   - first:
       213: 21300254
-    second: indoor_127
+    second: GlassTable_3
   - first:
       213: 21300256
-    second: indoor_128
+    second: GlassTable_4
   - first:
       213: 21300258
     second: Table1_3
@@ -571,10 +571,10 @@ TextureImporter:
     second: indoor_188
   - first:
       213: 21300378
-    second: indoor_189
+    second: Table2_1
   - first:
       213: 21300380
-    second: indoor_190
+    second: Table2_2
   - first:
       213: 21300382
     second: indoor_191
@@ -619,10 +619,10 @@ TextureImporter:
     second: indoor_204
   - first:
       213: 21300410
-    second: indoor_205
+    second: Table2_3
   - first:
       213: 21300412
-    second: indoor_206
+    second: Table2_4
   - first:
       213: 21300414
     second: indoor_207
@@ -658,10 +658,10 @@ TextureImporter:
     second: indoor_217
   - first:
       213: 21300436
-    second: indoor_218
+    second: Couch_1
   - first:
       213: 21300438
-    second: indoor_219
+    second: Couch2_1
   - first:
       213: 21300440
     second: indoor_220
@@ -706,10 +706,10 @@ TextureImporter:
     second: indoor_233
   - first:
       213: 21300468
-    second: indoor_234
+    second: Couch_2
   - first:
       213: 21300470
-    second: indoor_235
+    second: Couch2_2
   - first:
       213: 21300472
     second: indoor_236
@@ -748,10 +748,10 @@ TextureImporter:
     second: indoor_247
   - first:
       213: 21300496
-    second: indoor_248
+    second: Couch_3
   - first:
       213: 21300498
-    second: indoor_249
+    second: Couch2_3
   - first:
       213: 21300500
     second: indoor_250
@@ -961,10 +961,10 @@ TextureImporter:
     second: indoor_318
   - first:
       213: 21300638
-    second: indoor_319
+    second: BookShelf_1
   - first:
       213: 21300640
-    second: indoor_320
+    second: BookShelf_2
   - first:
       213: 21300642
     second: indoor_321
@@ -1009,10 +1009,10 @@ TextureImporter:
     second: indoor_334
   - first:
       213: 21300670
-    second: indoor_335
+    second: BookShelf_3
   - first:
       213: 21300672
-    second: indoor_336
+    second: BookShelf_4
   - first:
       213: 21300674
     second: indoor_337
@@ -1048,10 +1048,10 @@ TextureImporter:
     second: indoor_347
   - first:
       213: 21300696
-    second: indoor_348
+    second: BookShelf_5
   - first:
       213: 21300698
-    second: indoor_349
+    second: BookShelf_6
   - first:
       213: 21300700
     second: indoor_350
@@ -1375,7 +1375,7 @@ TextureImporter:
     second: indoor_456
   - first:
       213: 21300914
-    second: indoor_457
+    second: RoomChair
   - first:
       213: 21300916
     second: indoor_458
@@ -1607,7 +1607,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_1
+      name: Wood
       rect:
         serializedVersion: 2
         x: 32
@@ -1754,7 +1754,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_8
+      name: GoldCarpet
       rect:
         serializedVersion: 2
         x: 160
@@ -1985,7 +1985,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_19
+      name: Wood2
       rect:
         serializedVersion: 2
         x: 80
@@ -2006,7 +2006,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_20
+      name: ChairRed_1
       rect:
         serializedVersion: 2
         x: 96
@@ -2027,7 +2027,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_21
+      name: ChairRed_2
       rect:
         serializedVersion: 2
         x: 112
@@ -3959,7 +3959,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_113
+      name: GlassTable_1
       rect:
         serializedVersion: 2
         x: 48
@@ -3980,7 +3980,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_114
+      name: GlassTable_2
       rect:
         serializedVersion: 2
         x: 64
@@ -4253,7 +4253,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_127
+      name: GlassTable_3
       rect:
         serializedVersion: 2
         x: 48
@@ -4274,7 +4274,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_128
+      name: GlassTable_4
       rect:
         serializedVersion: 2
         x: 64
@@ -5555,7 +5555,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_189
+      name: Table2_1
       rect:
         serializedVersion: 2
         x: 80
@@ -5576,7 +5576,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_190
+      name: Table2_2
       rect:
         serializedVersion: 2
         x: 96
@@ -5891,7 +5891,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_205
+      name: Table2_3
       rect:
         serializedVersion: 2
         x: 80
@@ -5912,7 +5912,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_206
+      name: Table2_4
       rect:
         serializedVersion: 2
         x: 96
@@ -6164,7 +6164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_218
+      name: Couch_1
       rect:
         serializedVersion: 2
         x: 32
@@ -6185,7 +6185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_219
+      name: Couch2_1
       rect:
         serializedVersion: 2
         x: 48
@@ -6500,7 +6500,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_234
+      name: Couch_2
       rect:
         serializedVersion: 2
         x: 32
@@ -6521,7 +6521,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_235
+      name: Couch2_2
       rect:
         serializedVersion: 2
         x: 48
@@ -6794,7 +6794,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_248
+      name: Couch_3
       rect:
         serializedVersion: 2
         x: 32
@@ -6815,7 +6815,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_249
+      name: Couch2_3
       rect:
         serializedVersion: 2
         x: 48
@@ -8285,7 +8285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_319
+      name: BookShelf_1
       rect:
         serializedVersion: 2
         x: 192
@@ -8306,7 +8306,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_320
+      name: BookShelf_2
       rect:
         serializedVersion: 2
         x: 208
@@ -8621,7 +8621,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_335
+      name: BookShelf_3
       rect:
         serializedVersion: 2
         x: 192
@@ -8642,7 +8642,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_336
+      name: BookShelf_4
       rect:
         serializedVersion: 2
         x: 208
@@ -8894,7 +8894,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_348
+      name: BookShelf_5
       rect:
         serializedVersion: 2
         x: 192
@@ -8915,7 +8915,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_349
+      name: BookShelf_6
       rect:
         serializedVersion: 2
         x: 208
@@ -11183,7 +11183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoor_457
+      name: RoomChair
       rect:
         serializedVersion: 2
         x: 112

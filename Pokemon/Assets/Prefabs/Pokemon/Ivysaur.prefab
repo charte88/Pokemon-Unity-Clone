@@ -98,10 +98,10 @@ MonoBehaviour:
   biomeFound: 0
   type: 14
   rarity: 2
-  HP: 40
+  HP: -56
   maxHP: 62
   damage: 62
-  defense: 58
+  defense: 70
   expToReceive: 50
   AttackStat:
     minimum: 0
@@ -120,4 +120,4 @@ MonoBehaviour:
   evolveTo:
     nextEvolution: {fileID: 0}
     levelUpLevel: 0
-  level: 18
+  level: 25

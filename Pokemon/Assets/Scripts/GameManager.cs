@@ -35,11 +35,25 @@ public class GameManager : MonoBehaviour
     public Text dialogueText;
 
     private int expToReceive;
+    private static bool gmExists;
 
     public BattleState state;
     // Start is called before the first frame update
     void Start()
     {
+       /* if (!gmExists)
+        {
+          gmExists = true;
+          DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+          Destroy(gameObject);
+        } */
+        playerCamera = GameObject.Find("Main Camera");
+        battleCamera = GameObject.Find("BattleCamera");
+        playerObject = GameObject.Find("Player");
+
         playerCamera.SetActive(true);
         battleCamera.SetActive(false);
         theMusicController = FindObjectOfType<MusicController>();
@@ -135,26 +149,45 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    IEnumerator Flee()
+    {
+        dialogueText.text = "You got away safely!";
+        theMusicController.PlayTrack(6);
+        yield return new WaitForSeconds(1f);
+
+        SwitchBackToWorld();
+        //playerCamera.SetActive(true);
+        //battleCamera.SetActive(false);
+        //playerObject.GetComponent<Movement>().isAllowedToMove = true;
+        //Destroy(dPokemon);
+        //theMusicController.SwitchTrack(1);
+    }
+
     IEnumerator EndBattle()
     {
         if (state == BattleState.WON)
         {
-            dialogueText.text = defendingPokemon.PName + " was defeated!";
+            dialogueText.text = "Wild " + defendingPokemon.PName + " has fainted!";
         } else if (state == BattleState.LOST)
         {
-            dialogueText.text = playerPokemon.PName + " was defeated!";
+            dialogueText.text = "Your " + playerPokemon.PName + "has fainted!";
         }
+        theMusicController.SwitchTrack(3);
+        yield return new WaitForSeconds(6f);
+
         expToReceive = defendingPokemon.expToReceive;
         Debug.Log("Total EXP: " + expToReceive);
-        dialogueText.text = "Total EXP: " + expToReceive;
+        dialogueText.text = "Your Ash's Pikachu got " + expToReceive + " Exp. points!";
         //player.ResolveCombat(expToReceive);
-        yield return new WaitForSeconds(2f);
 
-        playerCamera.SetActive(true);
-        battleCamera.SetActive(false);
-        playerObject.GetComponent<Movement>().isAllowedToMove = true;
-        Destroy(dPokemon);
-        theMusicController.SwitchTrack(1);
+        yield return new WaitForSeconds(3f);
+
+        SwitchBackToWorld();
+        //playerCamera.SetActive(true);
+        //battleCamera.SetActive(false);
+        //playerObject.GetComponent<Movement>().isAllowedToMove = true;
+        //Destroy(dPokemon);
+        //theMusicController.SwitchTrack(1);
     }
 
     public void onFight()
@@ -177,9 +210,19 @@ public class GameManager : MonoBehaviour
 
     public void onRun()
     {
-
+        if (state != BattleState.PLAYERTURN)
+            return;
+        StartCoroutine(Flee());
     }
 
+    private void SwitchBackToWorld()
+    {
+        playerCamera.SetActive(true);
+        battleCamera.SetActive(false);
+        playerObject.GetComponent<Movement>().isAllowedToMove = true;
+        Destroy(dPokemon);
+        theMusicController.SwitchTrack(1);
+    }
 
     public List<BasePokemon> GetPokemonByRarity(Rarity rarity)
     {
