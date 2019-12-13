@@ -4,7 +4,7 @@
 ## Student ID    : 918245645
 
 
-## All of the project files including the scripts(C# files that contain the logic for the game)
+## All of the project files including the scripts(C# files that contain the logic for the game) are located in the Pokemon folder. The builds folder contains what is needed to run the game.
 
 ## To run the game, simply unzip the Untitled Pokemon Game folder. Then either use the Windows or Mac option to play the game.
 
