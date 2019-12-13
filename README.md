@@ -11,7 +11,7 @@
 ## No installs are needed, and the folder needs to stay exactly as is so the game can located the needed assets.
 
 ## Controls
-##----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
 
 ## WASD or the arrow keys will move the player around the game
 ## Mouse click is needed to choose to either use a move or flee in battle
