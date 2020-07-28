@@ -1,7 +1,7 @@
 # csc413-SecondGame
 
 ## Student Name  : Cameron Harte
-## Student ID    : 918245645
+## Student ID    : ******645
 
 
 ## All of the project files including the scripts(C# files that contain the logic for the game) are located in the Pokemon folder. The builds folder contains what is needed to run the game.
